@@ -21,7 +21,7 @@ This document catalogs each required proof deliverable, its location within the 
 | **ANOVA Residual Diagnostics** | `reports/figures/06_oneway_residuals.png` | **VERIFIED** | Inspect residual histogram + Q-Q plot (150 DPI) |
 | **Two-Way Interaction Plot** | `reports/figures/07_twoway_interaction.png` | **VERIFIED** | Inspect species $\times$ sex interaction pointplot with dimorphism gaps |
 | **Environment Specifications** | `reports/proof/environment.txt` | **VERIFIED** | `pip freeze` pinned packages matching `requirements.txt` |
-| **CI Automation Workflow** | `.github/workflows/ci.yml` | not run yet | GitHub Actions workflow trigger on push |
+| **CI Automation Workflow** | `.github/workflows/ci.yml` | **PASSED** (Run ID [41396828931](https://github.com/mohanasanthibattula-stack/stat-hypothesis-testing/actions/runs/41396828931)) | GitHub Actions CI workflow passed on `main` push (`gh run view 41396828931`) |
 
 ---
 
